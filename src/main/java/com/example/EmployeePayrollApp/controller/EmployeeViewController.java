@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class EmployeeViewController {
 
-    @GetMapping("/")  
+    @GetMapping("/")  // Maps the root URL
     public String showEmployeePage(Model model) {
         return "employee";
     }
